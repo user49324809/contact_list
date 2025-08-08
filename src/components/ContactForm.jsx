@@ -16,13 +16,13 @@ const ContactForm = ({ onAdd }) => {
     <form onSubmit={handleSubmit} className="contact-form">
       <input
         type="text"
-        placeholder="Имя"
+        placeholder="Имя:"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
       <input
         type="text"
-        placeholder="Телефон"
+        placeholder="Телефон:"
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
       />
